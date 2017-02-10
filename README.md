@@ -32,7 +32,7 @@ const img = require('./assets/a.png')
 ```
 
 ### 输出
-
+如果 `vt-button` 存在 pc/index.js pc/index.json pc/index.vue 中的一个则添加，否则不追加
 ```javascript
 import Buttons from "vt-button/pc";
 import { join } from "path";
