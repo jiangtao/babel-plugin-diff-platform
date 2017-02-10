@@ -2,7 +2,14 @@
 
 ui库开发的时候 同样的ui库 需要写不同的样式，但对于使用者来说不关心这些，因此有了这个插件
 
-## 配置.babelrc
+### 安装
+
+```bash
+npm install -D babel-plugin-diff-platform
+yarn install -D babel-plugin-diff-platform
+```
+
+### 配置.babelrc
 
 ```json
 {
@@ -15,7 +22,7 @@ ui库开发的时候 同样的ui库 需要写不同的样式，但对于使用�
 }
 ```
 
-## 输入
+### 输入
 
 ```javascript
 import Buttons from 'vt-button'
@@ -24,7 +31,7 @@ const { readFile } = require('fs')
 const img = require('./assets/a.png')
 ```
 
-## 输出
+### 输出
 
 ```javascript
 import Buttons from "vt-button/pc";

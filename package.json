@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-diff-platform",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "babel plugin diff platform find path",
   "main": "lib/index.js",
   "directories": {
