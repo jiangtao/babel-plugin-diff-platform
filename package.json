@@ -1,0 +1,43 @@
+{
+  "name": "babel-plugin-diff-platform",
+  "version": "0.2.2",
+  "description": "babel plugin diff platform find path",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/",
+    "watch": "npm run build -- -watch",
+    "build:test": "babel --presets es2015-loose,stage-1 --plugins transform-runtime test/ --out-dir test-app/",
+    "test": "npm run build:test && mocha test-app/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jerret321/babel-plugin-diff-platform.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "diff-platform"
+  ],
+  "author": "321jiangtao@gmail.com",
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x",
+    "babel-runtime": "6.x.x",
+    "babel-types": "6.x.x",
+    "istanbul": "^0.4.5",
+    "jasmine-node": "^1.14.5"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jerret321/babel-plugin-diff-platform/issues"
+  },
+  "homepage": "https://github.com/Jerret321/babel-plugin-diff-platform#readme"
+}

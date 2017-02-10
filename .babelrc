@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    ["./lib/index.js", {
+        "platform": "pc",
+        "extensions": [".js", ".json", ".vue"]
+    }]
+  ]
+}

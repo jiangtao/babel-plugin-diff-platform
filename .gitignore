@@ -1,0 +1,7 @@
+test-app
+node_modules
+.idea
+.DS_Store
+*.log
+.vs_code
+.idea
