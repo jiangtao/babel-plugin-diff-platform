@@ -5,3 +5,5 @@ node_modules
 *.log
 .vs_code
 .idea
+coverage
+.nyc_output
