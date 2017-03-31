@@ -2,7 +2,7 @@
 
 单个ui库需要支持不同的平台适配，开发者需要每个平台不同支持，不同的样式，于是诞生了包。
 
-<p align="center">
+<p>
   <a href="https://www.npmjs.com/package/babel-plugin-diff-platform">
     <img src="https://img.shields.io/npm/v/babel-plugin-diff-platform.svg?style=flat-square" />
   </a>
