@@ -6,9 +6,6 @@
   <a href="https://www.npmjs.com/package/babel-plugin-diff-platform">
     <img src="https://img.shields.io/npm/v/babel-plugin-diff-platform.svg?style=flat-square" />
   </a>
-  <a href="https://vuejs.org">
-    <img src="https://img.shields.io/badge/vue-2.1.8-brightgreen.svg?style=flat-square" />
-  </a>
   <a href="https://travis-ci.org/Jerret321/babel-plugin-diff-platform">
     <img src="https://img.shields.io/travis/Jerret321/babel-plugin-diff-platform.svg?style=flat-square" />
   </a>
