@@ -4,7 +4,6 @@
   "description": "babel plugin diff platform find path",
   "main": "lib/index.js",
   "directories": {
-    "example": "example",
     "test": "test"
   },
   "repository": {

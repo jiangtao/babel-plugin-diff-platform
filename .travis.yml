@@ -4,11 +4,8 @@ notifications:
   email: false
 node_js:
   - '6'
-script:
-  - npm run cover
-  - npm run build
 after_success:
-  - npm run report-coverage
+  - npm run report
 branches:
   only:
     - master
