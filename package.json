@@ -47,6 +47,10 @@
       ".js",
       ".vue"
     ],
+    "reporter": [
+      "lcov",
+      "text"
+    ],
     "cache": true,
     "check-coverage": true,
     "report-dir": "./coverage",
@@ -59,7 +63,8 @@
     "build": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/",
     "watch": "npm run build -- -watch",
     "codecov": "./node_modules/.bin/codecov",
-    "prepublish": "npm run test && npm run build"
+    "prepublish": "npm run test && npm run build",
+    "clear": "rm -fr coverage"
   },
   "license": "MIT",
   "bugs": {
