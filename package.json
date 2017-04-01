@@ -55,10 +55,10 @@
     ]
   },
   "scripts": {
-    "test": "ava",
-    "report": "nyc npm test",
+    "test": "nyc ava",
     "build": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir lib/",
     "watch": "npm run build -- -watch",
+    "codecov": "./node_modules/.bin/codecov",
     "prepublish": "npm run report && npm run build"
   },
   "license": "MIT",
