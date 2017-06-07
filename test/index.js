@@ -1,9 +1,3 @@
-// import test from 'ava'
-// import { transform } from 'babel-core'
-// import { types } from 'babel-types'
-// import { resolve, join } from 'path'
-// import { plugin } from '../src/index.js'
-
 const test = require('ava')
 const { transform } = require('babel-core')
 const { types } = require('babel-types')
